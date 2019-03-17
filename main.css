@@ -4,6 +4,7 @@ body{
     margin-right: 0;
     color: black;
     height: 2000px;
+    background-color: lightgray;
 }
 
 .top{
@@ -14,19 +15,19 @@ body{
 }
 
 .subTitle{
-    font-size: 35px;
-    color: #356a8d;
-    text-shadow: 10px 10px 10px black;
+    font-family: Impact;
+    font-size: 40px;
+    color: black;
     width: fit-content;
     padding: 3px;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 20px;
-    border-radius: 10px;
 
 }
 header{
-  background-color: red;
-  width: fit-content;
+    z-index: 100;
+    background-color: rgb(184, 16, 31);
+    background-color: red;
 }
 .horizontal{
     float: left;
@@ -34,10 +35,11 @@ header{
 #headerTitle{
     font-family:sans-serif;
     font-size: 60px;
+    font-weight: bold;
     position: absolute;
-    top: 80px;
-    margin-left: 120px;
-    color: black;
+    top: 20px;
+    margin-left: 0px;
+    color: rgba(40,40,40,1.0);
     white-space: nowrap;
 }
 #menu {
@@ -57,9 +59,10 @@ header{
     float: left;
 }
 #main_content{
-  margin-top: 135px;
-  margin-left: 40px;
-  font-size: 30px;
+    margin-top: 70px;
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: Roboto;
 }
 .selectedMenuItem{
     background-color: red;
@@ -81,9 +84,10 @@ header{
     background-color: rgb(170, 10, 20);/* #111;*/
 }
 #titleLogo{
-  position: absolute;
-  top: 60px;
-  margin-left: 10px;
+    padding:5px;
+    padding-right: 30px;
+    padding-left:30px;
+
 
 }
 .showcaseImg{
@@ -95,7 +99,7 @@ header{
     float: right;
 }
 .backdrop{
-    background-color: rgba(20,20,20,0.3);
+    background-color: rgba(20,20,20,0.1);
     padding: 10px;
     width: fit-content;
     border-radius: 5px;
