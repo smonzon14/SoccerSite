@@ -13,7 +13,12 @@ body{
     align-items: center;
     -webkit-align-items: center;
 }
+.teamPhoto{
+    padding: 5px;
+}
+.contact{
 
+}
 .subTitle{
     font-family: Impact;
     font-size: 40px;
