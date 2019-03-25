@@ -114,7 +114,7 @@ header{
     float: right;
 }
 .backdrop{
-    background-color: rgb(191, 191, 191);
+    background-color: rgba(191, 191, 191, 0.9);
     padding: 10px;
     width: fit-content;
     border-radius: 5px;
